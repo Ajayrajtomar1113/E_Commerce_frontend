@@ -1,0 +1,21 @@
+<div class="box hover:scale-105 transition-all duration-500 cursor-pointer flex flex-col items-center rounded-lg overflow-hidden w-[15rem] mx-3 shadow-md">
+
+  <div class="h-[13rem] w-[10rem] overflow-hidden flex items-center justify-center">
+    <img 
+      [src]="product.imageUrl" 
+      alt=""
+      class="h-full w-full object-cover"
+    >
+  </div>
+
+  <div class="p-5">
+    <h3 class="font-medium text-gray-200 text-sm">
+      {{product.brand}}
+    </h3>
+
+    <p class="mt-2 text-gray-400">
+      {{product.title}}
+    </p>
+  </div>
+
+</div>
